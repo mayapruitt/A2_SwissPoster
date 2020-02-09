@@ -7,24 +7,101 @@
             .debug{
             border: 1px solid red;
             }
+
+            html{
+                font-size: 16px;
+            }
             body{
                 font-family: 'Almarai', sans-serif;
             }
-            
+            .main{
+                background-color: #00ADDC;
+                height: 70vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                position: relative;
+              
+            }
+
+            .header{
+                position: absolute;
+                margin-top: 2rem;
+            }
+            .header__content{
+                color:#662D91;
+                font-size: 7rem;
+
+            }
+
+            .info{
+                /*padding-top: 11.5rem;*/
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                vertical-align: baseline;
+
+            }
+            .sectionleft{
+                width: 28vw;
+            }
+            .sectionleft__content{
+                color: #524FA1;
+                padding-left: 4rem;
+            }
+            .sectionmiddle{
+                width: 44vw;
+            }
+            .sectionmiddle__content{
+                color: #524FA1;
+            }
+            .sectionright{
+                width: 28vw;
+            }
+            .sectionright__content{
+                color: #524FA1;
+            }
+
+            .footer{
+                background-color: #662D91;
+                height: 30vh;
+                position: relative;
+            }
+            .footdiv{
+                position: absolute;
+                margin-bottom: 5rem;
+            }
+            .footdiv__header{
+                color: #00ADDC;
+                font-size: 7rem;
+            }
         </style>
     </head>
 
     <body>
         <main class="main debug">
-            <h1 class = "main__header debug">analogous</h1>
-            <section class = "section debug">
-                <p class = "section__content debug">the nature <br> of color</p>
-                <p class = "section__content debug">monday <br> march 9 2020</pclass = "section__content debug">
-                <p class = "section__content debug">at amnh <br> 200 central park west</p>
-            </section>
+            <div class = "header debug">
+                <h1 class = "header__content debug">analogous</h1>
+            </div>
+            <div class = "info">  
+                <section class = "sectionleft debug">
+                    <p class = "sectionleft__content debug">the nature <br> of color</p>
+                </section>
+                <section class = "sectionmiddle debug">
+                    <p class = "sectionmiddle__content debug">the nature <br> of color</p>
+                </section>
+                <section class = "sectionright debug">
+                    <p class = "sectionright__content debug">at amnh <br> 200 central park west</p>
+                 </section> 
+            </div>
+           
         </main>
         <footer class = "footer debug">
-            <h1 class = "footer__header debug">compound</h1>
+            <div class = "footdiv debug">
+                <h1 class = "footdiv__header debug">compound</h1>
+            </div>
+           
         </footer>
        
     </body>

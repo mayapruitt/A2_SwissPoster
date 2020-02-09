@@ -18,7 +18,7 @@
                 font-family: 'Almarai', sans-serif;
             }
             .main{
-                background-color: #00ADDC;
+                background-color:#00ADDC;
                 height: 70vh;
                 display: flex;
                 flex-direction: column;
@@ -34,8 +34,11 @@
             .header__content{
                 color:#662D91;
                 font-size: 19.5vw;
-
             }
+
+            /*.header__content:hover{
+                color: #6DC8BF;
+            }*/
 
             .info{
                 /*padding-top: 11.5rem;*/
@@ -75,7 +78,7 @@
             }
             .footdiv{
                 position: absolute;
-                margin-top: -10vh;
+                margin-top: -9vh;
                 /*unclear why margin-top with a negative unit is working but not margin-bottom
                 with positive units*/
     
@@ -113,5 +116,29 @@
         </footer>
        
     </body>
+
+    <script>
+        const compound = document.querySelector(".footdiv__header");
+        const analogous = document.querySelector(".header__content")
+        
+        
+       compound.addEventListener( 'mousemove', handleMouseMove);
+       analogous.addEventListener( 'mousemove', reverse);
+        
+        function handleMouseMove(event){
+          document.querySelector('main').style.backgroundColor = '#F68B1F';
+          document.querySelector('.header__content').style.color = '#6DC8BF';
+          document.querySelector('footer').style.backgroundColor = '#6DC8BF';
+          document.querySelector('.footdiv__header').style.color = '#F68B1F';
+        }
+
+        function reverse(event){
+          document.querySelector('main').style.backgroundColor = '#00ADDC';
+          document.querySelector('.header__content').style.color = '#662D91';
+          document.querySelector('footer').style.backgroundColor = '#662D91';
+          document.querySelector('.footdiv__header').style.color = '#00ADDC';
+
+        }
+        </script>
 
 </html>

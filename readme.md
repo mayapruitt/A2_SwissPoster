@@ -67,7 +67,7 @@ However, is it possible to lock the vertical positioning of elements in place ev
 - [Css hover events](https://www.opinions.co.il/ogdan/css-hover-element-affect-another/)
 - [Justifying content](https://css-tricks.com/almanac/properties/j/justify-content/)
 - [Javascript events](https://github.com/itp-dwd/2020-spring/blob/master/guides/javascript-frontend-guide.md#javascript-events)
-- Funny article about a [Swiss poster generator](https://mocoloco.com/swiss-poster-generator-by-ben-and-clark-duvall/)
+- [Swiss poster generator](https://mocoloco.com/swiss-poster-generator-by-ben-and-clark-duvall/)
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Author 

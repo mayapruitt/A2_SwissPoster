@@ -28,11 +28,11 @@ I created a few designs of my own that remixed the original. Since the OG poster
 
 ![valentines day design](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/valentines_idea.png)
 
-I've been interning at the Museum of Natural History creating interactive media for the upcoming special exhibition on ***color***. I felt like this lent itself well to the poster design and would allow for cool interactivity later. I wanted to highlight two types of color schemes and have them shift with a mouse over event.
+I've been interning at the Museum of Natural History creating interactive media for the upcoming [special exhibition](https://www.amnh.org/exhibitions/color) on ***color***. I felt like this lent itself well to the poster design and would allow for cool interactivity later. I wanted to highlight two types of color schemes and have them shift with a mouse over event.
 - Analogous = colors adjacent on the color wheel 
 - Compound = a color and the two colors adjacent to its compliment  
 
-![analogous](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/swiss_poster-03.png)!
+![analogous](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/swiss_poster-03.png)
 
 ## Style Guide
 From there I created a style guide, trying to match the original font and color palette. 

@@ -6,7 +6,7 @@ You can visit this site at any time here on [glitch.](https://pruitt-a2-swisspos
 Move your mouse over the big words to see a surprise!
 (This works on mobile as well yay! – Touch each word for the same effect.)
 
-If you want to run the project locally, follow the following steps:
+If you want to run the project locally, follow the steps below:
 
 1. Clone this github folder to your preferred location on your computer. 
 2. Use the Terminal to cd to this project. 
@@ -28,9 +28,11 @@ I created a few designs of my own that remixed the original. Since the OG poster
 
 ![valentines day design](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/valentines_idea.png)
 
-I've been interning at the Museum of Natural History creating interactive media for the upcoming special exhibition on ***color***. I felt like this lent itself well to the poster design and would allow for cool interactivity later. I wanted to use highlight two types of color schemes and have them shift with a mouse over event. 
+I've been interning at the Museum of Natural History creating interactive media for the upcoming special exhibition on ***color***. I felt like this lent itself well to the poster design and would allow for cool interactivity later. I wanted to highlight two types of color schemes and have them shift with a mouse over event.
+- Analogous = colors adjacent on the color wheel 
+- Compound = a color and the two colors adjacent to its compliment  
 
-![analogous](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/swiss_poster-03.png)![compound](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/swiss_poster-02.png) 
+![analogous](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/swiss_poster-03.png)!
 
 ## Style Guide
 From there I created a style guide, trying to match the original font and color palette. 

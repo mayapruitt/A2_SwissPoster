@@ -46,6 +46,8 @@ Having the design planned out made it a lot easier to begin the HTML process. I 
 
 Once the structure was in place, styling became mostly trial and error. I feel like though I had reverse engineered a grid like structure, I wasn't always sure how to put it in place programatically. Thus, a lot of adjustments became "moving by eye". Any advice for this?
 
+![before styling](https://github.com/mayapruitt/A2_SwissPoster/blob/master/documentation/before_styling.png)
+
 ## Struggles 
 
 I had the hardest time adjusting the vertical position of the large header text. I finally solved this with [Tania's advice](https://www.taniarascia.com/overview-of-css-concepts/) of making the parent div ```position: relative``` and the child div ```position: absolute.```
